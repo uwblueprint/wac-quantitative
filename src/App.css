@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow");
+
+body {
+  font-family: "barlow";
+  font-style: "normal";
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 36px;
+
+  color: #000000;
+
+  opacity: 0.8;
+
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.cardStyle {
+  position: relative;
+  width: 60%;
+  height: 668px;
+  left: 300px;
+  top: 68px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 2px;
+}
+
+.app-section {
+  margin: 32px auto;
+  max-width: 840px;
+}
+
+.app-container {
+  background: white;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  /* Card drop shadow */
+
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+}
