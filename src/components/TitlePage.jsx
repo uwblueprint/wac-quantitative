@@ -37,16 +37,12 @@ const ButtonGroup = (resetData) => {
         <tr>
           <td >
             <button className="primary first-time-user">
-              {/*<Link to={{ pathname: `/about-this-tool` }} onClick={resetData}>
                   How does it work?
-              </Link>*/}
             </button>
           </td>
           <td>
             <button className="secondary returning-user">
-              {/*<Link to={{ pathname: `/questionnaire` }} onClick={resetData}>
                   Go to the tool
-              </Link>*/}
             </button>
           </td>
         </tr>
