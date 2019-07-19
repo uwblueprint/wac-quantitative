@@ -14,17 +14,17 @@ class AppWizard extends React.Component {
     };
   }
 
-  decrement = () => {
+  decrement = (numPages = 1) => {
     const { pageNum } = this.state;
-    if (pageNum > 0) {
-      this.setState({ pageNum: pageNum - 1 });
+    if (pageNum - numPages >= 0) {
+      this.setState({ pageNum: pageNum - numPages });
     }
   }
 
-  increment = () => {
+  increment = (numPages = 1) => {
     const { pageNum } = this.state;
-    if (pageNum < this.props.children.length - 1) {
-      this.setState({ pageNum: pageNum + 1 });
+    if (pageNum + numPages < this.props.children.length) {
+      this.setState({ pageNum: pageNum + numPages });
     }
   }
 
