@@ -30,3 +30,29 @@
   text-decoration: none;
   color: #594fd1;
 }
+
+.frontPageTitleText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.bodyText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color:gray;
+}
+
+.frontPageButtonHeaderText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color:darkslategray;
+}

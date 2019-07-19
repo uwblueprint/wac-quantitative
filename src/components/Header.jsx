@@ -1,10 +1,10 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-import logo from "../images/logo.png";
+import logo from "../images/largeLogo.png";
 import "../styles/header.css";
 
-const QuestionnaireHeader = ({ sectionTitle }) => (
+const Header = ({ sectionTitle }) => (
   <div className="header-container">
     <div>
       <img className="logo" src={logo} alt="Logo" />
@@ -19,8 +19,8 @@ const QuestionnaireHeader = ({ sectionTitle }) => (
   </div>
 );
 
-export default QuestionnaireHeader;
+export default Header;
 
-QuestionnaireHeader.propTypes = {
+Header.propTypes = {
   sectionTitle: PropTypes.string
 };
