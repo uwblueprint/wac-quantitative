@@ -1,5 +1,4 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 import '../styles/Parameter.css';
 
@@ -17,11 +16,7 @@ class Parameter extends React.Component{
       {
         name: '',
         proportion: '',
-      },
-      {
-        name: '',
-        proportion: '',
-      },
+      }
     ],
   }
 
