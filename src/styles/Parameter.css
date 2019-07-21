@@ -1,0 +1,144 @@
+.card {
+    display: grid;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 35px;
+
+    background: #FFFFFF;
+    transition: all 0.2s;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card .title {
+    margin: 0 0 32px;
+    width: 344px;
+    height: 30px;
+    grid-row: 1;
+
+    /* H2 */
+    font-family: Barlow;
+    font-style: naormal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.card .column {
+    margin: 0 0 32px;
+    width: 148px;
+    height: 30px;
+    grid-row: 2;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.card .option {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 30% 10%;
+    grid-gap: 41px;
+}
+
+.card .option .name {
+    margin: 0 0 33px;
+    height: 30px;
+    grid-column: 1;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card .option .proportion {
+    height: 30px;
+    grid-column: 2;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card .option .remove-option {
+    margin-top: 10px;
+    transform: rotate(45deg);
+    height: 24px;
+    width: 24px;
+    grid-column: 3;
+    cursor: pointer;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.card .add-option {
+    display: flex;
+    margin: 0 0 32px;
+    width: 344px;
+    height: 24px;
+
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #594FD1;
+}
+
+.card .add-icon-background {
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 1px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+
+    background: #594FD1;
+    
+}
+
+.card .add-icon-background .add-icon {
+    position: relative;
+    margin-left: 2.5px;
+    margin-top: -4px;
+    font-size: 25px;
+
+    color: #FFFFFF;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.2);
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.2);
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(0, 0, 0, 0.2);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.2);
+}
