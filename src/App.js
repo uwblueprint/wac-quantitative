@@ -1,9 +1,11 @@
 import React from 'react';
 import TitlePage from './components/TitlePage';
+import AboutThisToolExcel from './components/AboutThisToolExcel'
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 import "./App.css"
+import AboutThisToolMetadata from './components/AboutThisToolMetadata';
 
 class AppWizard extends React.Component {
   constructor(props) {
@@ -58,7 +60,8 @@ const App = () => {
     <div className="App">
       <AppWizard>
         <TitlePage />
-        <div>test: add your components here</div>
+        <AboutThisToolMetadata/>
+        <AboutThisToolExcel/>
       </AppWizard>
     </div>
   );
