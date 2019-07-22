@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 import logo from "../images/largeLogo.png";
 import avatar from "../images/personIcon.png";
