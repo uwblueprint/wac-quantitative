@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const sections = [0,1,2]
+const SECTIONS = [0,1,2]
 
 const ProgressIndicator = ({ pageNum }) => (
   <div>
     <ol className="ProgressBar">
-      {sections.map((_, i) => {
+      {SECTIONS.map((_, i) => {
         let stepClassName = "ProgressBar-step";
         if (i < pageNum) {
           stepClassName += " is-complete";
@@ -34,5 +34,5 @@ export default ProgressIndicator;
 
 ProgressIndicator.propTypes = {
   pageNum: PropTypes.number,
-  sections: PropTypes.array
+  SECTIONS: PropTypes.array
 };
