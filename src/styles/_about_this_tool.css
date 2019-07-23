@@ -1,0 +1,38 @@
+
+.aboutThisToolContainer {
+  margin-left: 5%;
+  position: relative;
+}
+
+.aboutThisToolProgressBar {
+  width:100px;
+  margin:auto;
+}
+
+.aboutThisToolProgressBarContainer {
+  text-align: center;
+  position: relative;
+}
+
+.textBold {
+  font-weight: bold;
+}
+
+.marginRight {
+  margin-right: 140px;
+}
+
+.bottomNavigationButtons {
+  margin-top: 50px;
+  position: relative;
+}
+
+.pieChartImageContainer {
+  text-align: center;
+}
+
+.pieChartImage {
+  margin-top:20px;
+  width: 300px;
+  height: 210px;
+}

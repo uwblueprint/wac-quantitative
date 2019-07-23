@@ -45,3 +45,36 @@ button.secondary {
 button.secondary:hover {
   background: rgba(0, 0, 0, 0.1);
 }
+
+.first-time-user {
+  white-space: nowrap;
+}
+
+.returning-user {
+  margin-left:20px;
+  white-space: nowrap;
+}
+
+.bottom-button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+.prev-button {
+  position: absolute;
+  left: 0;
+  margin-left: 60;
+}
+
+.next-button {
+  position: absolute; 
+  right: 0;
+  margin-right: 60px;
+}
+
+.learn-more-button {
+  width: 160px;
+  height: 50px;
+  margin:auto;
+}

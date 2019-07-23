@@ -1,5 +1,12 @@
+.titlePageContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row; 
+  justify-content: flex-start;
+  align-content: center;
+}
+
 .introText {
-  margin-top: 10%;
   width: 50%;
   float: left;
   text-align: left;
@@ -7,14 +14,11 @@
 }
 
 .introPic {
-  width: 50%;
-  margin-left: 42%;
-  float: right;
-  margin-top: -25%;
-  position: absolute;
-  width: 541px;
-  height: 304px;
-  top: 65%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin-left:50px;
 }
 
 .secondBottomBorder i {
@@ -28,5 +32,51 @@
 
 .bottomTextR a {
   text-decoration: none;
+  color: #594fd1;
+}
+
+.frontPageTitleText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 36px;
+}
+
+.bodyText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color:gray;
+}
+
+.frontPageButtonHeaderText {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color:darkslategray;
+}
+
+.titlePageBottom {
+  margin-top: 30px;
+  text-align:center;
+  position:relative;
+}
+
+.titlePageProgressBar {
+  width:100px;
+  margin:auto;
+}
+
+.skipTutorial {
+  font-family: Barlow;
+  margin-right: 30px;
+  position:absolute;
+  right:0;
+  bottom:0;
   color: #594fd1;
 }

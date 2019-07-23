@@ -1,9 +1,11 @@
 import React from 'react';
 import TitlePage from './components/TitlePage';
+import AboutThisToolExcel from './components/AboutThisToolExcel'
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 import "./App.css"
+import AboutThisToolMetadata from './components/AboutThisToolMetadata';
 
 class AppWizard extends React.Component {
   constructor(props) {
@@ -14,17 +16,17 @@ class AppWizard extends React.Component {
     };
   }
 
-  decrement = () => {
+  decrement = (numPages = 1) => {
     const { pageNum } = this.state;
-    if (pageNum > 0) {
-      this.setState({ pageNum: pageNum - 1 });
+    if (pageNum - numPages >= 0) {
+      this.setState({ pageNum: pageNum - numPages });
     }
   }
 
-  increment = () => {
+  increment = (numPages = 1) => {
     const { pageNum } = this.state;
-    if (pageNum < this.props.children.length - 1) {
-      this.setState({ pageNum: pageNum + 1 });
+    if (pageNum + numPages < this.props.children.length) {
+      this.setState({ pageNum: pageNum + numPages });
     }
   }
 
@@ -58,7 +60,8 @@ const App = () => {
     <div className="App">
       <AppWizard>
         <TitlePage />
-        <div>test: add your components here</div>
+        <AboutThisToolMetadata/>
+        <AboutThisToolExcel/>
       </AppWizard>
     </div>
   );
