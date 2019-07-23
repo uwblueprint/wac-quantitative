@@ -21,7 +21,7 @@ const AboutThisToolExcel = ({decrement, increment}) => {
           </p>
           <div className="aboutThisToolProgressBarContainer">
             <div className="aboutThisToolProgressBar">
-              <ProgressIndicator pageNum={2}/>
+              <ProgressIndicator pageNum={3}/>
             </div>
           </div>
           <div className="bottomNavigationButtons">

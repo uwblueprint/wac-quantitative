@@ -21,7 +21,7 @@ const AboutThisToolMetadata = ({decrement, increment}) => {
           </p>
           <div className="aboutThisToolProgressBarContainer">
             <div className="aboutThisToolProgressBar">
-              <ProgressIndicator pageNum={1}/>
+              <ProgressIndicator pageNum={2}/>
             </div>
           </div>
           <div className="bottomNavigationButtons">
