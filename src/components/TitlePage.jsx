@@ -28,7 +28,7 @@ const TitlePage = ({ increment }) => {
           Learn More
         </button>
         <div className="titlePageProgressBar">
-          <ProgressIndicator pageNum={0}></ProgressIndicator>
+          <ProgressIndicator pageNum={1}></ProgressIndicator>
         </div>
       </div>
       <p className="skipTutorial">Skip tutorial</p>

@@ -1,11 +1,11 @@
 import React from "react";
 
 const BottomNavigationButtons = ({decrement, increment}) => {
-    return (<div>
-        <button className="secondary bottom-button" onClick={() => decrement()}>
+    return (<div className="button-container">
+        <button className="secondary" onClick={() => decrement()}>
             Previous
         </button>
-        <button className="primary bottom-button next-button" onClick={() => increment()}>
+        <button className="primary" onClick={() => increment()}>
             Next
         </button>
     </div>);

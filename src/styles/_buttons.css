@@ -55,12 +55,6 @@ button.secondary:hover {
   white-space: nowrap;
 }
 
-.bottom-button {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 40px;
-}
-
 .prev-button {
   position: absolute;
   left: 0;
@@ -77,4 +71,9 @@ button.secondary:hover {
   width: 160px;
   height: 50px;
   margin:auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }

@@ -16,7 +16,7 @@ const AboutThisToolMetadata = ({decrement, increment}) => {
           <div className="pieChartImageContainer">
             <img className="pieChartImage" src={GuyWithPieChart} alt="Guy with pie chart"/>
           </div>
-          <p className="bodyText marginRight">
+          <p className="bodyText">
             In order to successfully use this tool you will need two things. First, you need an estimate of the distribution of your key subpopulations within your target population. For example, if you are collecting data from your city and you want to check how biased your sample is by specific age groups you need to know what proportion of the people living in your city and under the age of 40, between the ages of 41 and 64, and 65 and over. 
           </p>
           <div className="aboutThisToolProgressBarContainer">
@@ -24,11 +24,9 @@ const AboutThisToolMetadata = ({decrement, increment}) => {
               <ProgressIndicator pageNum={2}/>
             </div>
           </div>
-          <div className="bottomNavigationButtons">
-            <BottomNavigationButtons decrement={decrement} increment={increment}/>
-          </div>
+          <BottomNavigationButtons decrement={decrement} increment={increment}/>
+          <p className="skipTutorial">Skip tutorial </p>
       </div>
-      <p className="skipTutorial">Skip tutorial </p>
     </div>
   );
 };
