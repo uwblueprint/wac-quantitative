@@ -16,7 +16,7 @@ const AboutThisToolExcel = ({decrement, increment}) => {
           <div className="pieChartImageContainer">
             <img className="pieChartImage" src={ExcelSheetUploadImage} alt="Guy with pie chart"/>
           </div>
-          <p className="bodyText marginRight">
+          <p className="bodyText">
           Then you need to upload your survey sample data to the tool, and we will calculate a comparison for those age groups to see if your sample data accurately reflects your population targets. In this example, the tool can tell you, for instance, if 20% of your city is under the age of 40 but only 15% of your survey data is from people under the age of 40. This means you could have a bias that needs to be accounted for.
           </p>
           <div className="aboutThisToolProgressBarContainer">
@@ -24,11 +24,9 @@ const AboutThisToolExcel = ({decrement, increment}) => {
               <ProgressIndicator pageNum={3}/>
             </div>
           </div>
-          <div className="bottomNavigationButtons">
-            <BottomNavigationButtons decrement={decrement} increment={increment}/>
-          </div>
+          <BottomNavigationButtons decrement={decrement} increment={increment}/>
+          <p className="skipTutorial">Skip tutorial </p>
       </div>
-      <p className="skipTutorial">Skip tutorial </p>
     </div>
   );
 };

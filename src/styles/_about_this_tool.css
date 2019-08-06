@@ -1,7 +1,11 @@
 
 .aboutThisToolContainer {
-  margin-left: 5%;
+  padding: 5% 5% 7% 5%;
   position: relative;
+}
+
+.aboutThisToolContainer .skipTutorial {
+
 }
 
 .aboutThisToolProgressBar {
@@ -16,10 +20,6 @@
 
 .textBold {
   font-weight: bold;
-}
-
-.marginRight {
-  margin-right: 140px;
 }
 
 .bottomNavigationButtons {
