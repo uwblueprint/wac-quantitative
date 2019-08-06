@@ -67,12 +67,17 @@ button.secondary:hover {
   margin-right: 60px;
 }
 
+.add-parameter-button {
+  width: 171px;
+  height: 50px;
+  margin-left: 40%;
+}
+
 .learn-more-button {
   width: 160px;
   height: 50px;
-  margin:auto;
+  margin: auto;
 }
-
 .button-container {
   display: flex;
   justify-content: space-between;
